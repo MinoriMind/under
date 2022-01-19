@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_hi">
+
+    <fragment
+        android:id="@+id/navigation_hi"
+        android:name="com.example.fragmentmenu.ui.hi.HiFragment"
+        android:label="hi"
+        tools:layout="@layout/fragment_hi" />
+
+    <fragment
+        android:id="@+id/navigation_go"
+        android:name="com.example.fragmentmenu.ui.go.GoFragment"
+        android:label="go"
+        tools:layout="@layout/fragment_go" />
+
+    <fragment
+        android:id="@+id/navigation_bed"
+        android:name="com.example.fragmentmenu.ui.bed.BedFragment"
+        android:label="bed"
+        tools:layout="@layout/fragment_bed" />
+
+    <fragment
+        android:id="@+id/navigation_night"
+        android:name="com.example.fragmentmenu.ui.night.NightFragment"
+        android:label="night"
+        tools:layout="@layout/fragment_night" />
+
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_hi"
+        android:icon="@drawable/ic_baseline_emoji_people_24"
+        android:title="hi" />
+
+    <item
+        android:id="@+id/navigation_go"
+        android:icon="@drawable/ic_baseline_directions_walk_24"
+        android:title="go" />
+
+    <item
+        android:id="@+id/navigation_night"
+        android:icon="@drawable/ic_baseline_bedtime_24"
+        android:title="night" />
+
+    <item
+        android:id="@+id/navigation_bed"
+        android:icon="@drawable/ic_baseline_local_hotel_24"
+        android:title="bed" />
+
+</menu>
