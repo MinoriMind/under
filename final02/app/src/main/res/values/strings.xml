@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">final0.2</string>
+    <string name="title_home">Home</string>
+    <string name="title_sle">Sle</string>
+    <string name="title_e">E</string>
+    <string name="title_pyb">Pyb</string>
+    <string name="title_ois">ois</string>
+</resources>

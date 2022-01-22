@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.final02.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_sle"
+        android:name="com.example.final02.ui.sle.SleFragment"
+        android:label="@string/title_sle"
+        tools:layout="@layout/fragment_sle" />
+
+    <fragment
+        android:id="@+id/navigation_e"
+        android:name="com.example.final02.ui.e.EFragment"
+        android:label="@string/title_e"
+        tools:layout="@layout/fragment_sle" />
+
+    <fragment
+        android:id="@+id/navigation_pyb"
+        android:name="com.example.final02.ui.pyb.PybFragment"
+        android:label="@string/title_pyb"
+        tools:layout="@layout/fragment_sle" />
+
+    <fragment
+        android:id="@+id/navigation_ois"
+        android:name="com.example.final02.ui.ois.OisFragment"
+        android:label="@string/title_ois"
+        tools:layout="@layout/fragment_ois" />
+</navigation>
